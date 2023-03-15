@@ -1,0 +1,26 @@
+## Criado no software VisuAlg https://visualg3.com.br/)
+## 09/03/2023
+## No VisuAlg os comentários são //
+
+// Pagina_2.pdf, exercício 4
+// Construa um algoritmo que receba um número inteiro e mostre o quadrado desse número.
+
+Var
+   // Declarações das variáveis
+   nro, qd_nro:real
+
+Inicio
+
+   // escreval --> enter
+   // 1a entrada de dados
+   escreval("Digite um número:")
+   leia(nro)
+
+   // Processamentos (quadrado do número)
+   qd_nro<-(nro)^2
+
+   // Saída do resultado
+   // :1:2 é para dizer as casas decimais
+   escreval("O quadrado do número é: ", qd_nro:1:2)
+
+Fimalgoritmo
