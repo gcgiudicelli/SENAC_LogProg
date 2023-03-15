@@ -1,0 +1,42 @@
+## Criado no software VisuAlg https://visualg3.com.br/)
+## 09/03/2023
+## No VisuAlg os comentários são //
+
+// Pagina_2.pdf, exercício 6
+// Receber dois números inteiros, e armazená-los em duas variáveis A e B.
+// O algoritmo deverá trocar os valores das variáveis, e mostrá-las trocadas.
+// ROUBANDO: usei outras duas variáveis, o ideal é usar apenas mais uma.
+// nro1, nro2, A, B:inteiro
+// escreval("Digite um número:")
+// leia(nro1)
+// escreval("Digite outro número:")
+// leia(nro2)
+// A<-nro1
+// B<-nro2
+// escreval("O primeiro número é:", B)
+// escreval("O segundo número é:", A)
+
+Var
+   // Declarações das variáveis
+   A, B, C:inteiro
+
+Inicio
+
+   // 1a entrada de dados
+   escreval("Digite um número:")
+   leia(A)
+   
+   // 2a entrada de dados
+   escreval("Digite outro número:")
+   leia(B)
+   
+   // Armazenar os números nas variaveis A e B)
+   C<-A
+   A<-B
+   B<-C
+   
+   // Trocar os valores das variáveis
+   escreval("O primeiro número é:", A)
+   escreval("O segundo número é:", B)
+
+Fimalgoritmo
