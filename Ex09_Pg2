@@ -1,0 +1,33 @@
+## Criado no software VisuAlg (https://visualg3.com.br/)
+## 10/03/2023
+## No VisuAlg os comentários são //
+
+// Pagina_2.pdf, exercício 9
+// Elaborar um programa que receba três valores (A, B e C) e apresente
+// como resultado final a soma dos quadrados dos três valores lidos.
+
+Var
+   // Declarações das variáveis
+   A, B, C, qdA, qdB, qdC, somaqd:real
+
+Inicio
+
+   // entradas
+   escreval("Digite um número:")
+   leia(A)
+   escreval("Digite um segundo número:")
+   leia(B)
+   escreval("Digite um terceiro número:")
+   leia(C)
+
+   // processamentos (quadrados de cada número)
+   qdA<-(A)^2
+   qdB<-(B)^2
+   qdC<-(C)^2
+   somaqd<-(qdA+qdB+qdC)
+
+   // saída (resultado dos processamentos)
+   // :1:2 é para dizer as casas decimais
+   escreval("A soma dos quadrados dos três números é: ", somaqd:1:2)
+
+Fimalgoritmo
