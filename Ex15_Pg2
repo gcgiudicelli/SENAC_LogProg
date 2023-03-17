@@ -1,0 +1,30 @@
+## Criado no software VisuAlg (https://visualg3.com.br/)
+## 13/03/2023
+## No VisuAlg os comentários são //
+
+// Pagina_2.pdf, exercício 15
+// Faça um algoritmo que receba um valor atribuído ao salário-mínimo
+// e um valor referente ao salário de um funcionário, calcule e mostre
+// a quantidade de salários mínimos que ganha esse funcionário.
+
+Var
+   // Declarações das variáveis
+   // SM, salário mínimo; SF, salário do funcionário; C, cálculo
+   SM,SF,C:real
+
+Inicio
+
+   // entradas
+   escreval("Digite o valor atual do salário mínimo:")
+   leia(SM)
+   escreval("Digite o valor do salário do funcionário:")
+   leia(SF)
+
+   // processamentos (comissão e cálculo do salário final)
+   C <- SF/SM
+
+   // saída (resultado dos processamentos)
+   // :1:2 é para dizer as casas decimais
+   escreval("O salário do funcionário é equivalente a ", C:1:2," salários mínimos.")
+
+Fimalgoritmo
