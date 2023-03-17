@@ -1,0 +1,31 @@
+## Criado no software VisuAlg (https://visualg3.com.br/)
+## 10/03/2023
+## No VisuAlg os comentários são //
+
+// Pagina_2.pdf, exercício 7
+// Dado um valor para A e outro para B, faça um algoritmo que calcule
+// e armazene numa variável C a soma de A e B dividido por 2,
+// numa variável D a o dobro da soma de A e B dividido por 2.
+
+Var
+   // Declarações das variáveis
+   A,B,C,D:real
+
+Inicio
+
+   // entradas
+   escreval("Digite uma valor para A:")
+   leia(A)
+   escreval("Digite uma valor para B:")
+   leia(B)
+
+   // processamentos (conversão de graus C para graus F)
+   C<-(A+B)/2
+   D<-2*C
+
+   // saída (resultado dos processamentos)
+   // :1:2 é para dizer as casas decimais
+   escreval("A soma de A e B dividido por 2 é: ", C:1:2)
+   escreval("O dobro da soma de A e B dividido por 2 é: ", D)
+
+Fimalgoritmo
