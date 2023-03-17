@@ -1,0 +1,32 @@
+## Criado no software VisuAlg (https://visualg3.com.br/)
+## 13/03/2023
+## No VisuAlg os comentários são //
+
+// Pagina_2.pdf, exercício 12
+// Um funcionário recebe um salário fixo mais 4% de comissão sobre as vendas.
+// Faça um programa que receba o salário fixo de um funcionário e o valor de
+// suas vendas, calcule e mostre a comissão e o salário final do funcionário.
+
+Var
+   // Declarações das variáveis
+   // S, salário fixo; V, vendas; C, comissão; SF, salário final
+   S,V,C,SF:real
+
+Inicio
+
+   // entradas
+   escreval("Digite o salário fixo do funcionário:")
+   leia(S)
+   escreval("Digite o valor das vendas do mês:")
+   leia(V)
+
+   // processamentos (comissão e cálculo do salário final)
+   C <- 0.04*V
+   SF <- S+C
+
+   // saída (resultado dos processamentos)
+   // :1:2 é para dizer as casas decimais
+   escreval("A comissão do funcionário é R$", C:1:2,".")
+   escreval("O salário final do funcionário é R$", SF:1:2,".")
+
+Fimalgoritmo
