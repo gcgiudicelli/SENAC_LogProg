@@ -3,7 +3,8 @@
 ## No VisuAlg os comentários são //
 
 // Pagina_2.pdf, exercício 4
-// Construa um algoritmo que receba um número inteiro e mostre o quadrado desse número.
+// Construa um algoritmo que receba um número inteiro 
+// e mostre o quadrado desse número.
 
 Var
    // Declarações das variáveis
