@@ -1,0 +1,27 @@
+## Criado no software VisuAlg (https://visualg3.com.br/)
+## 10/03/2023
+## No VisuAlg os comentários são //
+
+// Pagina_2.pdf, exercício 3
+// Receba uma temperatura em graus Celsius e mostrá-la convertida para
+// Fahrenheit. Fórmula da conversão: F = (9*C+160)/5, sendo
+// F = fahrenheit e C a temperatura em Celsius.
+
+Var
+   // Declarações das variáveis
+   C, F:real
+
+Inicio
+
+   // entradas
+   escreval("Digite uma valor de temperatura em graus Celcius:")
+   leia(C)
+
+   // processamentos (conversão de graus C para graus F)
+   F<-(9*C+160)/5
+
+   // saída (resultado dos processamentos)
+   // :1:2 é para dizer as casas decimais
+   escreval("O valor convertido em graus Fahrenheit é: ", F:1:2)
+
+Fimalgoritmo
