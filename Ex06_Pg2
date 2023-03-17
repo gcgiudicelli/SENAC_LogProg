@@ -30,7 +30,7 @@ Inicio
    escreval("Digite outro número:")
    leia(B)
    
-   // Armazenar os números nas variaveis A e B)
+   // Armazenar os números nas variaveis A e B
    C<-A
    A<-B
    B<-C
