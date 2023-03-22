@@ -1,0 +1,28 @@
+Algoritmo "GCG_20230313_exercicio_8"
+// Data: 13/03/2023
+
+// Pagina_2.pdf, exercício 8
+// Dado um valor para A e outro para B, calcular o resultado do
+// quadrado da diferença do primeiro valor pelo segundo.
+
+Var
+   // Declarações das variáveis
+   A,B,dif,qd_dif:real
+
+Inicio
+
+   // entradas
+   escreval("Digite uma valor para A:")
+   leia(A)
+   escreval("Digite uma valor para B:")
+   leia(B)
+
+   // processamentos (quadrado da diferença do primeiro valor pelo segundo)
+   dif <-(A-B)
+   qd_dif <- dif^2
+
+   // saída (resultado dos processamentos)
+   // :1:2 é para dizer as casas decimais
+   escreval("O quadrado da diferença do valor de A pelo de B é: ", qd_dif:1:2)
+
+Fimalgoritmo
