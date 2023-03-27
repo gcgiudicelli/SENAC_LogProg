@@ -1,0 +1,31 @@
+## Criado no software VisuAlg (https://visualg3.com.br/)
+## 14/03/2023
+## No VisuAlg os comentários são //
+
+// Lista_Exercicios_Logica_condicionais.pdf
+// Supondo A = 5 e B = 2, diga o resultado lógico das equações abaixo:
+// 1a. (NAO(A + B <= A) E (B-A<0)) OU (NAO(A<B) E (B>A)) OU (A>B)
+
+Var
+   // variáveis
+   numero:real
+
+Inicio
+
+   // entrada
+   escreval("Digite um número:")
+   leia(numero)
+
+   // processamento e saída
+   // colocar () porque em algumas linguagens precisa e outras não
+   SE(numero=0)entao // abrindo 1o se
+      escreval("O número é zero.")
+   senao
+      se(numero >=0)entao // abrindo 2o se
+         escreval("O número é positivo.")
+      senao
+         escreval("O número é negativo.")
+      fimse // fechando o 2o se
+   FIMSE // fechando o 1o se
+
+Fimalgoritmo
