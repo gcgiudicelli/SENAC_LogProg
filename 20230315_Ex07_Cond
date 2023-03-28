@@ -1,0 +1,29 @@
+## Criado no software VisuAlg (https://visualg3.com.br/)
+## 15/03/2023
+## No VisuAlg os comentários são //
+
+// Lista_Exercicios_Logica_condicionais.pdf, exercício 7
+// Faça um algoritmo que leia dois valores reais e informe
+// se estes valores são iguais ou diferentes.
+
+Var
+   // Declarações das variáveis
+   // A, B
+   A,B:real
+
+Inicio
+
+   // entrada
+   escreval("Digite um número A:")
+   leia(A)
+   escreval("Digite um número B:")
+   leia(B)
+
+   // processamento e saída
+   SE(A=B)entao // sim
+      escreval("Os dois números são iguais.")
+   senao // não
+      escreval("Os dois números são diferentes.")
+   FIMSE
+
+Fimalgoritmo
