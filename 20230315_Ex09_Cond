@@ -1,0 +1,25 @@
+## Criado no software VisuAlg (https://visualg3.com.br/)
+## 15/03/2023
+## No VisuAlg os comentários são //
+
+// Lista_Exercicios_Logica_condicionais.pdf, exercício 9
+// Faça um programa que receba um valor inteiro e diga se ele é par ou ímpar.
+
+Var
+   // Declarações das variáveis
+   N:inteiro
+
+Inicio
+
+   // entrada
+   escreval("Digite um número:")
+   leia(N)
+
+   // processamento e saída
+   SE N mod 2 = 0 entao // sim
+      escreval("O número escolhido é PAR.")
+   senao // não
+      escreval("O número escolhido é ÍMPAR.")
+   FIMSE
+
+Fimalgoritmo
