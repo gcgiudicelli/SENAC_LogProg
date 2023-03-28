@@ -1,0 +1,29 @@
+## Criado no software VisuAlg (https://visualg3.com.br/)
+## 15/03/2023
+## No VisuAlg os comentários são //
+
+// Lista_Exercicios_Logica_condicionais.pdf, exercício 8
+// Faça um algoritmo que leia dois valores reais
+// e exiba ao final qual dos dois é o maior.
+
+Var
+   // Declarações das variáveis
+   // A, B
+   A,B:real
+
+Inicio
+
+   // entrada
+   escreval("Digite um número A:")
+   leia(A)
+   escreval("Digite um número B:")
+   leia(B)
+
+   // processamento e saída
+   SE(A>B)entao // sim
+      escreval("O número A é maior que o número B.")
+   senao // não
+      escreval("O número A é menor que o número B.")
+   FIMSE
+
+Fimalgoritmo
