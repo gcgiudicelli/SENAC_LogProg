@@ -1,0 +1,46 @@
+## Criado no software VisuAlg (https://visualg3.com.br/)
+## 15/03/2023
+## No VisuAlg os comentários são //
+
+// Lista_Exercicios_Logica_condicionais.pdf, exercício 12
+// Faça um programa que receba a altura e o sexo de uma pessoa e calcule seu
+// peso ideal, conforme as fórmulas: Homens:(72,7*h)–58; Mulheres:(62,1*h)–44,7
+
+Var
+   // Declarações das variáveis
+   // h, altura; sexo;
+   h, homem, mulher:real
+   sexo:caracter
+
+Inicio
+
+   // entrada
+   escreval("Qual a sua altura?")
+   leia(h)
+   escreval("Com qual sexo você se identifica? Digite F para feminino e M para masculino.")
+   leia(sexo)
+
+   // processamento e saída
+   homem<-(72,7*h)–58
+   mulher<-(62,1*h)–44,7
+   se (sexo="F") entao
+      escreval("O seu peso ideal é "mulher" kg.")
+   senao
+      escreval("O seu peso ideal é "homem" kg.")
+   fimse
+
+Fimalgoritmo
+
+  // correção
+  //h,formula:real
+  //genero:caractere
+  //escreval("Altura:")
+  //leia(h)
+  //escreval("Gênero H ou M?")
+  //leia(genero)
+  //se(genero="H")entao
+  //formula<-(72,7*h)-58
+  //senao
+  //formula<-(62,1*h)-44,7
+  //fimse
+  //escreval("IMC: ", formula:1:2)
