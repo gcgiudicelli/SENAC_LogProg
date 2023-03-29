@@ -1,0 +1,50 @@
+## Criado no software VisuAlg (https://visualg3.com.br/)
+## 16/03/2023
+## No VisuAlg os comentários são //
+
+// Lista_Exercicios_Logica_condicionais.pdf, exercício 13
+// Faça um programa que receba a quantidade de litros a abastecer,
+// o tipo de combustível e diga o valor a pagar, conforme tabela:
+// Combustível - Valor por litro
+// Gasolina - 2,79
+// Álcool - 1,99
+// GNV - 1,52
+// Diesel - 1,89
+
+Var
+   // Declarações das variáveis
+   // L, litros a abastecer; C, combustível
+   L,formula:real
+   C:caractere
+
+Inicio
+
+   // entrada
+   escreval("Quantos litros você quer abastecer?")
+   leia(L)
+   escreval("Com qual combusível? Gasolina, Alcool, GNV ou Diesel?")
+   leia(C)
+
+   SE(C="Gasolina")entao
+      formula<-2.79*L
+   SENAO
+      se(C="Alcool")entao
+         formula<-1.99*L
+      senao
+         SE(C="GNV")entao
+            formula<-1.52*L
+         SENAO // Diesel
+            formula<-1.89*L
+         FIMSE
+      fimse
+   FIMSE
+   escreval("Você deve pagar R$", formula:1:2, ".")
+   
+Fimalgoritmo
+
+//se(genero="H")entao
+//formula<-(72,7*h)-58
+//senao
+//formula<-(62,1*h)-44,7
+//fimse
+//escreval("IMC: ", formula:1:2)
